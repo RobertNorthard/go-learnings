@@ -9,7 +9,7 @@ import (
 var hostname string
 
 func init() {
-	flag.StringVar(&hostname, "hostname", "google.com", "Hostname to ping")
+  flag.StringVar(&hostname, "hostname", "google.com", "Hostname to ping")
 }
 
 func usage() {
